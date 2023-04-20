@@ -1,0 +1,2 @@
+rmq:
+  url: amqp://rmuser:<% env_tag(param="RMQ_PASS") %>@127.0.0.1:5672
